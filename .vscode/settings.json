@@ -3,6 +3,10 @@
     "python.terminal.activateEnvironment": true,
     "jupyter.notebookFileRoot": "${workspaceFolder}",
     
+    // --- Auto-Save (Automatically save notebook & code changes to disk) ---
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    
     // --- Google Colab-style Notebook Interface & Direct Output ---
     "notebook.lineNumbers": "on",
     "notebook.cellToolbarLocation": {
