@@ -1,0 +1,51 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    
+    // --- Google Colab-style Notebook Interface ---
+    "notebook.lineNumbers": "on",
+    "notebook.cellToolbarLocation": {
+        "default": "right"
+    },
+    "notebook.insertToolbarLocation": "betweenCells",
+    "notebook.compactView": false,
+    "notebook.dragAndDropEnabled": true,
+    "notebook.showFoldingControls": "always",
+    "notebook.output.scrolling": true,
+    "notebook.output.textLineLimit": 50,
+    "notebook.consolidatedRunButton": true,
+    "notebook.markup.fontSize": 14,
+    "notebook.output.fontSize": 13,
+    "notebook.showCellStatusBar": "visible",
+    "notebook.diff.enablePreview": true,
+
+    // --- Colab-like Editor Typography & Behavior ---
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Roboto Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 22,
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+
+    // --- Google Colab-inspired Visual Styling ---
+    "workbench.colorCustomizations": {
+        "notebook.cellBorderColor": "#e0e0e022",
+        "notebook.focusedCellBorder": "#4285f4",
+        "notebook.selectedCellBorder": "#4285f4aa",
+        "notebook.cellToolbarSeparator": "#4285f444",
+        "notebookStatusErrorIcon.foreground": "#ea4335",
+        "notebookStatusRunningIcon.foreground": "#fbbc04",
+        "notebookStatusSuccessIcon.foreground": "#34a853"
+    }
+}
