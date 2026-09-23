@@ -16,10 +16,11 @@
     "notebook.output.scrolling": true,
     "notebook.output.textLineLimit": 50,
     "notebook.consolidatedRunButton": true,
-    "notebook.markup.fontSize": 14,
+    "notebook.markup.fontSize": 15,
     "notebook.output.fontSize": 13,
     "notebook.showCellStatusBar": "visible",
     "notebook.diff.enablePreview": true,
+    "notebook.cellFocusIndicator": "border",
 
     // --- Colab-like Editor Typography & Behavior ---
     "editor.fontSize": 14,
@@ -37,6 +38,10 @@
         "comments": false,
         "strings": true
     },
+
+    // --- Markdown & Heading Typography ---
+    "markdown.preview.fontSize": 15,
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
 
     // --- Google Colab-inspired Visual Styling ---
     "workbench.colorCustomizations": {
