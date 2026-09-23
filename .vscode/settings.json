@@ -2,9 +2,8 @@
     "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
     "python.terminal.activateEnvironment": true,
     "jupyter.notebookFileRoot": "${workspaceFolder}",
-    "jupyter.interactiveWindow.textEditor.executeSelection": true,
     
-    // --- Google Colab-style Notebook Interface ---
+    // --- Google Colab-style Notebook Interface & Direct Output ---
     "notebook.lineNumbers": "on",
     "notebook.cellToolbarLocation": {
         "default": "right"
@@ -13,14 +12,15 @@
     "notebook.compactView": false,
     "notebook.dragAndDropEnabled": true,
     "notebook.showFoldingControls": "always",
-    "notebook.output.scrolling": true,
-    "notebook.output.textLineLimit": 50,
+    "notebook.output.scrolling": false,
+    "notebook.output.wordWrap": true,
     "notebook.consolidatedRunButton": true,
     "notebook.markup.fontSize": 15,
     "notebook.output.fontSize": 13,
     "notebook.showCellStatusBar": "visible",
     "notebook.diff.enablePreview": true,
     "notebook.cellFocusIndicator": "border",
+    "jupyter.themeMatplotlibPlots": true,
 
     // --- Colab-like Editor Typography & Behavior ---
     "editor.fontSize": 14,
