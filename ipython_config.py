@@ -1,6 +1,7 @@
 # ==============================================================================
 # IPython Configuration for Machine Learning Workspace
 # ==============================================================================
+from sklearn import get_config
 c = get_config()
 
 # Display output for EVERY evaluated line/expression in a cell,
