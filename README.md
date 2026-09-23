@@ -63,14 +63,15 @@ Each notebook can be launched directly in Google Colab with one click:
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DebarghyaAich/Machine_Learning_Basics/blob/main/00_environment_verification.ipynb)
 
 - **NumPy Basics Notebook**:
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DebarghyaAich/Machine_Learning_Basics/blob/main/numpy.ipynb)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DebarghyaAich/Machine_Learning_Basics/blob/main/Python_Libraries_Tutorial/numpy.ipynb)
+
+- **Pandas Basics Notebook**:
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DebarghyaAich/Machine_Learning_Basics/blob/main/Python_Libraries_Tutorial/pandas.ipynb)
 
 Syntax template for new notebooks:
 ```markdown
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DebarghyaAich/Machine_Learning_Basics/blob/main/<NOTEBOOK_NAME>.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DebarghyaAich/Machine_Learning_Basics/blob/main/<FOLDER>/<NOTEBOOK_NAME>.ipynb)
 ```
-
-Replace `<YOUR_GITHUB_USERNAME>` and `<NOTEBOOK_NAME>` with your repository details.
 
 ---
 
