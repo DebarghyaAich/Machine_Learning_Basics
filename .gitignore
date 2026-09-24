@@ -46,4 +46,4 @@ wheels/
 *.joblib
 *.h5
 *.onnx
-data/raw/
+data/
